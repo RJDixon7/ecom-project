@@ -16,12 +16,12 @@ class SignInForm extends Component {
                 onClick: () => history.push("/singup")
             },
             {
-                _id: 0,
+                _id: 1,
                 title: "Forgot account email?",
                 onClick: () => console.log("forgot account email")
             },
             {
-                _id: 0,
+                _id: 2,
                 title: "Forgot password?",
                 onClick: () => console.log("forgot password")
             }
@@ -45,7 +45,7 @@ class SignInForm extends Component {
                 <div className="sign-in-form-line"></div>
 
                 <Field className="sign-in-form-login" 
-                    onClick={() => console.log("trying to submit")}
+                    onClick={() => history.push("/signin")}
                     type="submit" 
                     title="Login" 
                     name="login" 
