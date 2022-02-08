@@ -3,6 +3,7 @@ import SignUpForm from "./signupForm";
 import PageTitle from "../pageTitle";
 
 
+
 class SignUp extends Component {
 
     onSubmit = (fields) => {
@@ -13,11 +14,12 @@ class SignUp extends Component {
         return (
             <div className="sign-up">
                 <PageTitle className="sign-up-page-title" title="Register" />
-                <SignUpForm onSubmit={this.onSubmit} className= "sign-up_form" />
+                <SignUpForm onSubmit={this.onSubmit} className= "sign-up-form" />
             </div>
         )
     }
 }
+
 
 
 export default SignUp;

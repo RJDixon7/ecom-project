@@ -13,7 +13,7 @@ class SignInForm extends Component {
             {
                 _id: 0,
                 title: "Not Registered? Create account here",
-                onClick: () => history.push("/singup")
+                onClick: () => history.push("/signup")
             },
             {
                 _id: 1,
